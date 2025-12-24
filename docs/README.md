@@ -258,13 +258,13 @@ cd net_chat
 
 **Terminal 2 - Client 1:**
 ```bash
-./client 127.0.0.1 5050 Alice
+./client 127.0.0.1 5050 elb7ar
 # Output: Connected. Type messages, /quit to exit.
 ```
 
 **Terminal 3 - Client 2:**
 ```bash
-./client 127.0.0.1 5050 Bob
+./client 127.0.0.1 5050 saad
 ```
 
 **Commands:**
@@ -298,18 +298,18 @@ cd gui/gui_net_chat
 **Terminal 1 - User 1:**
 ```bash
 cd shm_chat
-./shm_chat 0 Alice
+./shm_chat 0 elb7ar
 # Client ID: 0-9, Username: any string
 ```
 
 **Terminal 2 - User 2:**
 ```bash
-./shm_chat 1 Bob
+./shm_chat 1 elb7ar
 ```
 
 **Terminal 3 - User 3:**
 ```bash
-./shm_chat 2 Charlie
+./shm_chat 2 elb7ar2
 ```
 
 **Important Notes:**
